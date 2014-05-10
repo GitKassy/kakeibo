@@ -5,8 +5,8 @@
     <title>kassy's account book</title>
     <?php
         echo $this->Html->meta('icon');
-        echo $this->Html->css('kakeibo');
         echo $this->Html->css('normalize');
+        echo $this->Html->css('kakeibo');
     ?>
 </head>
 <body>
@@ -23,7 +23,9 @@
    </div><!--content-->
 
     <div id="footer">
-        <div id="copyright">Copyright&copy;kassy</div>
+        <div id="footer_content">
+            <div id="copyright">Copyright&copy;kassy</div>
+        </div>
     </div>
 <div><!--wrapper-->
 </body>

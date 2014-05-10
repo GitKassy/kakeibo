@@ -57,45 +57,67 @@ body{
 }
 
 body{
-    background: url(../img/bg_body.png);
+    background: url(../img/bg_body.gif);
 }
 
 header
 {
     position: absolute;
     top: 0;
-    left: 1%;
-    width: 98%;
-    min-width: 950px;
+    width: 960px;
     height: 75px;
+}
+
+h1
+{
+    width: 890px;
+    height: 75px;
+    margin: 0 auto;
+    padding-left: 10px;
+    line-height: 75px;
     background: url(../img/bg_footer_border.png) repeat-x bottom;
 }
 
-#wrapper{
+#wrapper
+{
     position: relative;
+    top: 1%;
+    width: 960px;
     height: auto !important;
-    height: 100%;
-    min-height:100%;
+    height: 98%;
+    min-height:98%;
+    margin: 0 auto;
+    border-top:solid 1px #b0aea8;
+    border-bottom:solid 3px #b0aea8;
+    background: url(../img/bg_note.gif) repeat-y ;
 }
 
-#content{
-    padding: 75px 0 75px;
-    width: 950px;
+#content
+{
+    padding: 75px 0 50px;
+    width: 865px;
     margin: 0 auto;
 }
 
 #footer{
     position: absolute;
     bottom: 0;
-    left: 1%;
-    width: 98%;
-    min-width: 950px;
-    height: 75px;
+    width: 960px;
+    height: 50px;
+}
+
+#footer_content
+{
+    margin-top: 15px;
+    width: 890px;
+    margin: 0 auto;
     background: url(../img/bg_footer_border.png) repeat-x top;
 }
 
-#copyright{
-    margin-top: 15px;
+#copyright
+{
+    padding-right: 10px;
+    line-height: 50px;
 }
 /****************
   header
@@ -111,7 +133,6 @@ header
   トップ
 *****************/
 #KakeiboAddMeisaiForm{
-    width: 950px;
     margin: 50px auto 45px;
 }
 
@@ -137,24 +158,24 @@ header
 
 #KakeiboAddMeisaiForm label{
     margin-right: 15px;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 #KakeiboAddMeisaiForm .col_1
 {
     width: 250px;
-    margin-right: 45px
+    margin-right: 35px
 }
 
 #KakeiboAddMeisaiForm .col_2
 {
     width: 250px;
-    margin-right: 45px;
+    margin-right: 35px;
 }
 #KakeiboAddMeisaiForm .col_3
 {
     width: 250px;
-    margin-right: 45px;
+    margin-right: 5px;
 }
 
 #KakeiboAddMeisaiForm .col_4
@@ -164,7 +185,7 @@ header
 
 #main_menu{
     float: left;
-    width: 300px;
+    width: 285px;
     height: auto;
     margin: 0;
     padding: 0 50px 0 0;
@@ -179,7 +200,7 @@ header
 
 #top_table{
     float: left;
-    width: 600px;
+    width: 530px;
     margin-bottom: 45px;
     text-align: center;
     background: url(../img/bg_table_horizon_border.png) repeat-x bottom;
