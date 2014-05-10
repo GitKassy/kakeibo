@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* Common
+------------------------------------------------------------------------*/
+
+/*
+ * clear fix
+ */
+.cf:before,
+.cf:after{
+    content: " ";
+    display: table;
+}
+
+.cf:after{
+    clear: both;
+}
+
+/*Typography
+------------------------------------------------------------------------*/
+* {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN','Meiryo', 'sans-serif';
+  word-wrap: break-word;
+  color: #503F21;
+}
+
+a {
+    color: #F18129;
+    text-decoration: none;
+    -webkit-transition: color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out;
+}
+
+a:hover {
+}
+
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+p {
+}
+
+/* Theme Style
+------------------------------------------------------------------------*/
+html,
+body{
+   height: 100%; 
+}
+
+body{
+    background: url(../img/bg_body.png);
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 1%;
+    width: 98%;
+    min-width: 950px;
+    height: 75px;
+    background: url(../img/bg_footer_border.png) repeat-x bottom;
+}
+
+#wrapper{
+    position: relative;
+    height: auto !important;
+    height: 100%;
+    min-height:100%;
+}
+
+#content{
+    padding: 75px 0 75px;
+    width: 950px;
+    margin: 0 auto;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+    width: 98%;
+    min-width: 950px;
+    height: 75px;
+    background: url(../img/bg_footer_border.png) repeat-x top;
+}
+
+#copyright{
+    margin-top: 15px;
+}
+/****************
+  header
+*****************/
+/****************
+  footer
+*****************/
+#copyright
+{
+    text-align:right;
+}
+/****************
+  トップ
+*****************/
+#KakeiboAddMeisaiForm{
+    width: 950px;
+    margin: 50px auto 45px;
+}
+
+#KakeiboAddMeisaiForm .register_form,
+#KakeiboAddMeisaiForm .register_form label,
+#KakeiboAddMeisaiForm .register_submit{
+    float: left;
+}
+
+#KakeiboAddMeisaiForm .register_form input,
+#KakeiboAddMeisaiForm .register_form select,
+#KakeiboAddMeisaiForm .register_submit input
+{
+    height: 40px;
+    border: none;
+}
+
+#KakeiboAddMeisaiForm .register_form input,
+#KakeiboAddMeisaiForm .register_form select
+{
+    width: 160px;
+}
+
+#KakeiboAddMeisaiForm label{
+    margin-right: 15px;
+    line-height: 40px;
+}
+
+#KakeiboAddMeisaiForm .col_1
+{
+    width: 250px;
+    margin-right: 45px
+}
+
+#KakeiboAddMeisaiForm .col_2
+{
+    width: 250px;
+    margin-right: 45px;
+}
+#KakeiboAddMeisaiForm .col_3
+{
+    width: 250px;
+    margin-right: 45px;
+}
+
+#KakeiboAddMeisaiForm .col_4
+{
+    width: 40px;
+}
+
+#main_menu{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0 50px 0 0;
+    list-style: none;
+}
+
+#main_menu li
+{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#top_table{
+    float: left;
+    width: 600px;
+    margin-bottom: 45px;
+    text-align: center;
+    background: url(../img/bg_table_horizon_border.png) repeat-x bottom;
+}
+
+#top_table tr{
+    height: 57px;
+    background: url(../img/bg_table_horizon_border.png) repeat-x top;
+}
+
+#top_table th,
+#top_table td
+{
+    table-layout: fixed;
+    position: relative;
+    top: 5px;
+}
+
+#top_table img
+{
+    height: 45px;
+}
+
+#top_table .col_1{
+    width: 60px; 
+    padding-left: 15px;
+}
+
+#top_table .col_2{
+    width: 55px; 
+}
+
+#top_table .col_3
+{
+    width: 230px;
+}
+
+#top_table .col_4
+{
+    width: 230px;
+    padding-right: 25px;
+}
+
+.meisai_data
+{
+   text-align: right; 
+}
+
+/****************
+  明細
+*****************/
+#meisai_table{
+    width: 950px;
+    margin-bottom: 45px;
+    text-align: center;
+    background: url(../img/bg_table_horizon_border.png) repeat-x bottom;
+}
+
+#meisai_table tr{
+    height: 57px;
+    background: url(../img/bg_table_horizon_border.png) repeat-x top;
+}
+
+#meisai_table th,
+#meisai_table td
+{
+    position: relative;
+    top: 5px;
+}
+
+#meisai_table img
+{
+    height: 45px;
+}
+
+.meisai_data
+{
+   text-align: right; 
+}
+
+#meisai_table .col_2
+{
+    text-align: right;
+}
+
+#meisai_table .col_4
+{
+    text-align: left;
+}
+
+#meisai_table .col_6 img
+{
+    padding: 0 5px;
+}
