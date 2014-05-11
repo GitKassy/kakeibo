@@ -1,6 +1,6 @@
-<?php $errors = null ?>
-
+<?php if(!empty($errors)): ?>
 <p><?php print $errors[0]; ?></p>
+<?php endif; ?>
 
 <?php
 

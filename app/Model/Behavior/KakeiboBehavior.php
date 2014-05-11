@@ -103,11 +103,12 @@ class KakeiboBehavior extends ModelBehavior
         {
             $errors[] ='ユーザー名またはパスワードが違います';
             return array('errors' => $errors);
-            if($password != $user_pass[$user])
-            {
-                $errors[] ='ユーザー名またはパスワードが違います';
-                return array('errors' => $errors);
-            }
+        }
+
+        if($password != $user_pass[$user])
+        {
+            $errors[] ='ユーザー名またはパスワードが違います';
+            return array('errors' => $errors);
         }
 
         return true;

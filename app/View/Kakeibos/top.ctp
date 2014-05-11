@@ -18,7 +18,7 @@
         <ul id="main_menu" class="cf">
             <li><?php print $this->Html->link('ホーム', array(
                     'controller' => 'kakeibos',
-                    'action' => 'index',
+                    'action' => 'top',
                 )); ?>
             </li>
             <li><?php print $this->Html->link('明細', array(

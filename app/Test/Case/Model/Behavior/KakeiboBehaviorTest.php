@@ -335,6 +335,12 @@ class KakeiboBehaviorTest extends CakeTestCase
         $actual = $this->model->loginCheck($user, $password);
         $this->assertNotEmpty($actual);
 
+        //userは合っているがパスワードが違う
+        $user = "kassy";
+        $password = "detarame";
+        $actual = $this->model->loginCheck($user, $password);
+        $this->assertNotEmpty($actual);
+
         //nullが来たとき
         $user = null;
         $password = null;

@@ -96,7 +96,7 @@ h1
 {
     padding: 75px 0 50px;
     width: 865px;
-    margin: 0 auto;
+    margin: 50px auto 0;
 }
 
 #footer{
@@ -133,7 +133,7 @@ h1
   トップ
 *****************/
 #KakeiboAddMeisaiForm{
-    margin: 50px auto 45px;
+    margin: 0 auto 45px;
 }
 
 #KakeiboAddMeisaiForm .register_form,
@@ -253,7 +253,7 @@ h1
   明細
 *****************/
 #meisai_table{
-    width: 950px;
+    width: 865px;
     margin-bottom: 45px;
     text-align: center;
     background: url(../img/bg_table_horizon_border.png) repeat-x bottom;
@@ -276,19 +276,9 @@ h1
     height: 45px;
 }
 
-.meisai_data
-{
-   text-align: right; 
-}
-
 #meisai_table .col_2
 {
     text-align: right;
-}
-
-#meisai_table .col_4
-{
-    text-align: left;
 }
 
 #meisai_table .col_6 img

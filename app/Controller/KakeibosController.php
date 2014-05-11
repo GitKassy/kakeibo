@@ -21,13 +21,10 @@ class KakeibosController extends AppController{
      * ログイン画面
      */
     public function index(){
-        $this->layout = 'login';
     }
 
     public function login()
     {
-        $this->layout = 'login';
-
         $user = $this->request->data['Kakeibo']['user'];
         $password = $this->request->data['Kakeibo']['password'];
         $loginCheck = $this->Kakeibo->loginCheck($user, $password);
